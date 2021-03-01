@@ -1,0 +1,68 @@
+=== cirrusId.adoc
+- - -
+_2021-03-01 11:00 Dedra & Mark chat_
+
+==== CirrusIdentity Integration with Workbench
+
+*Bridge, "Federation Adapter"*
+
+* Workbench IdP as link point
+* Cirrus Bridge independent, //. TAP WB IdP ?
+* What is CiBr entityId ?
+* {AzAD, Okta, GSuite, LDAP} to CiBr
+* Configuration ?
+
+*Gateway*
+
+* GW independent, //, TAB WB IdP ?
+* What is GW entityId ?
+* SocialIdPs to WB SPs {fb, Twitter, Google, Yahoo, LinkedIn, Windows??}
+* Configuration ?
+
+*Account Linking*
+
+* where is the link data persisted ?
+* How does account linking integrate w WB IdP ?
+* How is the process triggered?
+* Links to which identity/credential sources ? ORCID ?
+* Self-registration add-on
+* Configuration ?
+* ] request account linking white paper
+
+*Invitation*
+
+* Sponsor sends email, or sponsor uses API to email invitee
+* Invitee clicks link in email to their own IdP or a Gateway-mediated social provider
+* After link, what is user authN flow (SP 1st?)
+** "Admins configure guest and sponsor email notifications *specific to the Service Provider*"
+* How would this integrate with WB ?
+* Self-registration add-on
+* Configuration ?
+
+*IdP Proxy*
+
+* Supports {campus IdP, custom IdP(?), InC/eduGain, social via CG}
+* Integration w WB: Functions as 'just another IdP'?
+* Configuration ?
+
+*EduAccessID* (IdPoLR)
+
+* Integ w {AcctLink, Invitation}, idpProxy-enables MFA
+* Integration w WB: Functions as 'just another IdP' ?
+* Configuration ?
+
+*MyResearchID* (IdPoLR)
+
+* Integ w {AcctLink, Invitation}, idpProxy-MFA support ?
+* User onboarding workflow
+* Integration w WB: Functions as 'just another IdP' ?
+* Configuration ?
+
+*Discovery Service*
+
+* Standalone disc. svc
+* Integration w WB
+
+*Console*
+
+* 1 console for any/all CI services?
