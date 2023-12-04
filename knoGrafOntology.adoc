@@ -1,0 +1,99 @@
+=== knoGrafOntology.adoc 
+SEE owl.adoc, semweb.adoc, rdf.adoc
+
+- - -
+_2023-11-23 15:35 knoGr + LLM => greater accuracy in responses to prompts_
+
+https://medium.com/@nebulagraph/graph-rag-the-new-llm-stack-with-knowledge-graphs-e1e902c504ed[] +
+
+https://towardsdatascience.com/embeddings-knowledge-graphs-the-ultimate-tools-for-rag-systems-cbbcca29f0fd[] +
+
+https://ai.plainenglish.io/the-silent-information-transformation-with-llms-building-knowledge-graphs-with-maximum-automation-2f8d453327d9[] <- LLMs come in by automating ontology extraction from unstructured corpora +
+
+https://medium.com/@mike.dillinger/knowledge-graphs-enable-llms-to-really-understand-9e99466e2da2[] +
+
+https://medium.com/@mike.dillinger/the-nature-of-knowledge-graph-predicates-e7cdca00f390[] +
+
+https://ai.plainenglish.io/new-research-proves-knowledge-graphs-drastically-improve-accuracy-of-large-language-models-on-0f1dbcc08d61 [] +
+
+https://arxiv.org/pdf/2311.07509.pdf > sequedaKnogLLM.pdf <- paper on the actual benchmark study +
+
+https://github.com/chrdebru/r2rml-tutorial [] <- Tutorial on R2RML: relational to rdf mapping +
+  uses r2rml-f as engine, but ontop engine + Postgres is superior per:
+https://www.w3.org/community/kg-construct/2021/05/10/new-r2rml-implementation-report/ [] +
+
+https://ontop-vkg.org/tutorial/[] <- recommended first ontop tutorial +
+
+"Ontop is a Virtual Knowledge Graph system. It exposes the content of arbitrary relational databases as knowledge graphs. These graphs are virtual, which means that data remains in the data sources instead of being moved to another database.
+
+Ontop translates SPARQL queries expressed over the knowledge graphs into SQL queries executed by the relational data sources. It relies on R2RML (RDF to Relational Markup Language) mappings
+
+and can take advantage of lightweight ontologies"
+
+
+https://ontop-vkg.org/guide/getting-started.html#tutorial 
+[] <- Ontop tutorial +
+
+https://github.com/ontop/ontop/releases [] ontop repos +
+
+- - -
+_2023-11-11 21:05 barrasa on github_
+
+https://github.com/jbarrasa
+
+- - -
+_2023-10-29 21:04 Your intro to knoGraphs_
+
+https://medium.com/@lopezyse/your-guide-to-knowledge-graphs-509c847f3d69[] +
+https://medium.com/@dgg32/delving-into-the-world-of-knowledge-graphs-ad8bbc72b0fa[]
+ <- review of _Building Kno Graphs_, Jesus Barrasa and Jim Webber, 2023
+
+- - -
+_2023-10-05 09:52 3-day Knowledge Graph virtual conference_
+
+*- 14-16 Nov 2023 -*
+https://www.accelevents.com/e/ontotext-knowledge-graph-forum-2023#agenda[] +
+
+- - -
+_2023-09-3 17:33:47 Working through Building KnoGraphs_
+
+*- Principles of DDD -*
+
+- Focus on events and processes rather than data.
+- Partition the problem domain into smaller subdomains.
+- Create a model of each subdomain in the solution.
+- Develop an “everywhere language” that can be shared between everyone involved in the project.
+
+https://learning.oreilly.com/library/view/domain-modeling-made/9781680505481/f_0019.xhtml#:-:text=We%E2%80%99ve%20been%20introduced,the%20Ubiquitous%20Language.[] <- 7 core concepts of DDD +
+
+- - -
+_2023-08-23 10:56:47 T&I KnowGraph PoC Launch_
+
+*- best practices from knowgraphJpl.pdf -*
+
+- rdf as model: things and their relationships
+- every 'rdf' node has its unique URI: namespace:uniqueIdentifier4element
+- namespace prefixes: Under Institutional Knowledge Graph org governance: ikg:
+- - Under Human Resources...  hr:
+
+.
+
+- - -
+_2023-08-23 10:29:02 references and links_
+
+https://medium.com/aarth-software[]
+https://medium.com/@connect-lokesh/ontology-driven-kg-construction-part-1-c29f9224dfdc[]
+https://medium.com/@connect-lokesh/knowledge-graph-construction-with-ontologies-in-neo4j-part-2-654f24da2a46[]
+https://medium.com/dev-genius/
+knowledge-graphs-the-powerhouse-of-modern-data-and-how-to-construct-one-with-python-and-neo4j-94be35e00ac3[] +
+https://medium.com/ai-in-plain-english/reasoning-on-graphs-with-llms-a-new-era-of-knowledge-integration-60b1facd1257[] <- RoG: Reasoning on Graphs with LLMs +
+https://medium.com/neo4j/construct-knowledge-graphs-from-unstructured-text-877be33300a2[]
+_Building Knowledge Graphs_ pdf & kindle, Jésus Barrasa & Jim Webber, 2023 +
+https://learning.oreilly.com/library/view/knowledge-graphs/9781098104863/ch07.html[] <- 1st Barassa & Webber on KnoGr 2021 +
+https://neo4j.com/use-cases/knowledge-graph/[] <- n4j on knogr +
+knowgraphJpl.pdf +
+https://medium.com/@peter.lawrence_47665/[] +
+https://medium.com/gopenai/llm-ontology-prompting-for-knowledge-graph-extraction-efdcdd0db3a1[] <-
+https://medium.com/@peter.lawrence_47665/https://medium.com/@peter.lawrence_47665/ \ encouraging-results-for-knowledge-graph-extraction-by-llm-ontology-prompting-60a7e5dcaf0a[] +
+https://enterprise-knowledge.com/whats-the-difference-between-an-ontology-and-a-knowledge-graph/[] !! +
+https://medium.com/openlink-software-blog/howto-using-chat-gpt-to-generate-a-knowledge-graph-from-a-mermaid-entity-relationship-model-d9cf6d539d7e[] <- +
