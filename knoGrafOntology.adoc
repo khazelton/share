@@ -1,6 +1,8 @@
 === knoGrafOntology.adoc 
 SEE owl.adoc, semweb.adoc, rdf.adoc
 
+https://www.understandingai.org/p/large-language-models-explained-with
+
 - - -
 _2023-11-23 15:35 knoGr + LLM => greater accuracy in responses to prompts_
 
